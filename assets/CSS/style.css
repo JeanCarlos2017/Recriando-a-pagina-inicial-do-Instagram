@@ -10,10 +10,124 @@
 body{
     width: 100%;
     min-height: 100vh;
-    background-color: white;
+    background-color: #F2FEFB;
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
 }
 
+.instagram-wrapper{
+    display: flex;
+    /*eixo y e eixo x */
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 100vh;
+}
+
+.instagram-phone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.instagram-phone img{
+    height: 50rem;
+    width: 80%;
+    overflow: hidden;
+
+}
+
+.instagram-continue{
+    display: flex;
+    height: 40rem;
+    align-items: center; /* aqui ele está na horizontal */
+    justify-content: space-around; /* aqui ele está na vertical */
+    flex-direction: column;
+    width: 50%;
+    min-height: 34rem;
+}
+
+.instagram-continue .profile-photo{
+   /*padding-left: 30%;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.instagram-continue .group img{
+    height: 8rem;
+}
+
+#logoInstagram{
+    width: 50%;
+    height: 4rem;
+}
+
+.group{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    padding: 1.3rem 0;
+    border: 1px solid lightgray;
+}
+
+.group:nth-child(1){
+    min-height: 19px;
+}
+
+.intagram-login{
+    background-color: #4169e1;
+    color: white;
+    padding: 9px;
+    border-radius: 4px;
+    margin-top: 0.5rem;
+}
+
+.instagram-logout{
+    color: royalblue;
+    margin-top: 1rem;
+}
+
+.not-account{
+    color: rgb(160, 160, 160);
+}
+
+.link-blue{
+    color: royalblue;
+}
+
+.get-the-app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0;
+}
+
+.download{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.app-download{
+    height: 3rem;
+    width: 10rem;
+    background-size: cover;
+}
+
+.app-download:nth-child(1){
+    background-image: url("../img/apple button.png");
+}
+.app-download:nth-child(2){
+    background-image: url("../img/google button.jpg");
+}
